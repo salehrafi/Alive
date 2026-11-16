@@ -1,0 +1,8 @@
+# Runtime
+PySide6-Essentials>=6.6      # QtCore/QtGui/QtWidgets only (full "PySide6" also works)
+comtypes>=1.2
+pycaw>=20240210              # only its COM interface definitions (pycaw.api.*) are used
+
+# Build-time only
+pyinstaller>=6.3
+pillow>=10                   # tools/make_icon.py

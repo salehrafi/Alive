@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Build output (regenerate with build_installer.ps1)
+build/
+dist/
+*.spec.bak
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
